@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		C3E4FAA32C429F0400E283E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FAA22C429F0400E283E2 /* AppDelegate.swift */; };
 		C3E4FAA52C429F0400E283E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FAA42C429F0400E283E2 /* SceneDelegate.swift */; };
-		C3E4FAA72C429F0400E283E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FAA62C429F0400E283E2 /* ViewController.swift */; };
 		C3E4FAAA2C429F0400E283E2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C3E4FAA92C429F0400E283E2 /* Base */; };
 		C3E4FAAC2C429F0C00E283E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E4FAAB2C429F0C00E283E2 /* Assets.xcassets */; };
 		C3E4FAAF2C429F0C00E283E2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C3E4FAAE2C429F0C00E283E2 /* Base */; };
 		C3E4FABA2C429F0D00E283E2 /* LoginMVVMUnitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FAB92C429F0D00E283E2 /* LoginMVVMUnitTestTests.swift */; };
 		C3E4FAC42C429F0D00E283E2 /* LoginMVVMUnitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FAC32C429F0D00E283E2 /* LoginMVVMUnitTestUITests.swift */; };
 		C3E4FAC62C429F0D00E283E2 /* LoginMVVMUnitTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FAC52C429F0D00E283E2 /* LoginMVVMUnitTestUITestsLaunchTests.swift */; };
+		C3E4FADE2C42A3DD00E283E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FADD2C42A3DD00E283E2 /* LoginViewController.swift */; };
+		C3E4FAE02C42A5F300E283E2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FADF2C42A5F300E283E2 /* LoginViewModel.swift */; };
+		C3E4FAE32C42AAAB00E283E2 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FAE22C42AAAB00E283E2 /* ValidationType.swift */; };
+		C3E4FAE52C42ACE600E283E2 /* ValidationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FAE42C42ACE600E283E2 /* ValidationHelper.swift */; };
+		C3E4FAE82C42BD7800E283E2 /* AlertController + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FAE72C42BD7800E283E2 /* AlertController + UIViewController.swift */; };
+		C3E4FAEA2C42BE7300E283E2 /* LoginViewModelTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4FAE92C42BE7300E283E2 /* LoginViewModelTestCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		C3E4FA9F2C429F0400E283E2 /* LoginMVVMUnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginMVVMUnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E4FAA22C429F0400E283E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3E4FAA42C429F0400E283E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3E4FAA62C429F0400E283E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3E4FAA92C429F0400E283E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3E4FAAB2C429F0C00E283E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E4FAAE2C429F0C00E283E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		C3E4FABF2C429F0D00E283E2 /* LoginMVVMUnitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginMVVMUnitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E4FAC32C429F0D00E283E2 /* LoginMVVMUnitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMVVMUnitTestUITests.swift; sourceTree = "<group>"; };
 		C3E4FAC52C429F0D00E283E2 /* LoginMVVMUnitTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMVVMUnitTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3E4FADD2C42A3DD00E283E2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C3E4FADF2C42A5F300E283E2 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C3E4FAE22C42AAAB00E283E2 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
+		C3E4FAE42C42ACE600E283E2 /* ValidationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationHelper.swift; sourceTree = "<group>"; };
+		C3E4FAE72C42BD7800E283E2 /* AlertController + UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController + UIViewController.swift"; sourceTree = "<group>"; };
+		C3E4FAE92C42BE7300E283E2 /* LoginViewModelTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTestCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +109,12 @@
 		C3E4FAA12C429F0400E283E2 /* LoginMVVMUnitTest */ = {
 			isa = PBXGroup;
 			children = (
-				C3E4FAA22C429F0400E283E2 /* AppDelegate.swift */,
-				C3E4FAA42C429F0400E283E2 /* SceneDelegate.swift */,
-				C3E4FAA62C429F0400E283E2 /* ViewController.swift */,
-				C3E4FAA82C429F0400E283E2 /* Main.storyboard */,
-				C3E4FAAB2C429F0C00E283E2 /* Assets.xcassets */,
-				C3E4FAAD2C429F0C00E283E2 /* LaunchScreen.storyboard */,
+				C3E4FAE62C42BD4500E283E2 /* Extension */,
+				C3E4FAE12C42AA9000E283E2 /* Validation */,
+				C3E4FAD52C42A35300E283E2 /* Screens */,
+				C3E4FAD22C42A31700E283E2 /* Application */,
+				C3E4FAD32C42A32D00E283E2 /* Storyboard */,
+				C3E4FAD42C42A33C00E283E2 /* Resources */,
 				C3E4FAB02C429F0C00E283E2 /* Info.plist */,
 			);
 			path = LoginMVVMUnitTest;
@@ -114,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				C3E4FAB92C429F0D00E283E2 /* LoginMVVMUnitTestTests.swift */,
+				C3E4FAE92C42BE7300E283E2 /* LoginViewModelTestCases.swift */,
 			);
 			path = LoginMVVMUnitTestTests;
 			sourceTree = "<group>";
@@ -125,6 +136,90 @@
 				C3E4FAC52C429F0D00E283E2 /* LoginMVVMUnitTestUITestsLaunchTests.swift */,
 			);
 			path = LoginMVVMUnitTestUITests;
+			sourceTree = "<group>";
+		};
+		C3E4FAD22C42A31700E283E2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4FAA22C429F0400E283E2 /* AppDelegate.swift */,
+				C3E4FAA42C429F0400E283E2 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C3E4FAD32C42A32D00E283E2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4FAA82C429F0400E283E2 /* Main.storyboard */,
+				C3E4FAAD2C429F0C00E283E2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C3E4FAD42C42A33C00E283E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4FAAB2C429F0C00E283E2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C3E4FAD52C42A35300E283E2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4FAD92C42A38F00E283E2 /* Login */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C3E4FAD92C42A38F00E283E2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4FADC2C42A3AC00E283E2 /* Model */,
+				C3E4FADB2C42A3A400E283E2 /* View */,
+				C3E4FADA2C42A39700E283E2 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C3E4FADA2C42A39700E283E2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4FADF2C42A5F300E283E2 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C3E4FADB2C42A3A400E283E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4FADD2C42A3DD00E283E2 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3E4FADC2C42A3AC00E283E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3E4FAE12C42AA9000E283E2 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4FAE22C42AAAB00E283E2 /* ValidationType.swift */,
+				C3E4FAE42C42ACE600E283E2 /* ValidationHelper.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		C3E4FAE62C42BD4500E283E2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4FAE72C42BD7800E283E2 /* AlertController + UIViewController.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +353,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E4FAA72C429F0400E283E2 /* ViewController.swift in Sources */,
+				C3E4FAE32C42AAAB00E283E2 /* ValidationType.swift in Sources */,
+				C3E4FAE82C42BD7800E283E2 /* AlertController + UIViewController.swift in Sources */,
+				C3E4FAE02C42A5F300E283E2 /* LoginViewModel.swift in Sources */,
+				C3E4FADE2C42A3DD00E283E2 /* LoginViewController.swift in Sources */,
 				C3E4FAA32C429F0400E283E2 /* AppDelegate.swift in Sources */,
+				C3E4FAE52C42ACE600E283E2 /* ValidationHelper.swift in Sources */,
 				C3E4FAA52C429F0400E283E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E4FAEA2C42BE7300E283E2 /* LoginViewModelTestCases.swift in Sources */,
 				C3E4FABA2C429F0D00E283E2 /* LoginMVVMUnitTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
